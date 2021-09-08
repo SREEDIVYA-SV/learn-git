@@ -1,1 +1,18 @@
-welcome
+git commands:
+git init-creates new git repoditry
+git add filename-add file into staging area
+git add .-adds all changes and files created into staging area
+git status-shows the status of the files
+git rm --catched<file>-removes the file from staging area
+git commit -m"comment"-moves code into local repo stage
+git log-gives history of all commits made
+git reset head~1-undo the last commit made
+git reset --hard<code>-completely go back to the required commit
+git push -u origin main-push the changes to github
+git branch-lists the branches
+git checkout -b<branch-name>-creates new branch
+git checkout <branch-name>-changes one branch to another
+git push -u <branch-name>-pushes only branch to the github
+git merge <branch-name>-we can merge the required branch
+git pull-updates the changes made in github to local directory.
+git clone <link>-used to download project to our pc
